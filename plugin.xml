@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
 				xmlns:android="http://schemas.android.com/apk/res/android"
-				id="com.phonegap.plugins.PushPlugin"
-				version="2.5.7">
+				id="cordova-plugin-push-notification"
+				version="2.5.5">
 
 	<name>PushPlugin</name>
 
@@ -28,8 +28,8 @@
 		<engine name="cordova" version=">=3.0.0"/>
 	</engines>
 
-	<dependency id="org.apache.cordova.device"/>
-	<dependency id="org.apache.cordova.globalization"/>
+	<dependency id="cordova-plugin-device"/>
+	<dependency id="cordova-plugin-globalization"/>
 
 	<!-- android -->
 	<platform name="android">
